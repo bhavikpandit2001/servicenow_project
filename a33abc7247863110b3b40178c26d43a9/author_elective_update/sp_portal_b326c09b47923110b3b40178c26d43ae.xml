@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="DELETE">
+        <css_variables/>
+        <dark_theme/>
+        <default>false</default>
+        <enable_ais>false</enable_ais>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="home_page">e135c45b47923110b3b40178c26d4362</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page/>
+        <logo/>
+        <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <search_application/>
+        <search_results_configuration/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu display_value="Portal Training Menu">674e189347163110b3b40178c26d4347</sp_rectangle_menu>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-09 07:28:53</sys_created_on>
+        <sys_id>b326c09b47923110b3b40178c26d43ae</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Portal Training</sys_name>
+        <sys_package display_value="Projects" source="x_1139630_projects">a33abc7247863110b3b40178c26d43a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Projects">a33abc7247863110b3b40178c26d43a9</sys_scope>
+        <sys_update_name>sp_portal_b326c09b47923110b3b40178c26d43ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-09 09:12:35</sys_updated_on>
+        <theme display_value="La Jolla">a7a6e78277002300a6e592718a10617a</theme>
+        <title>Portal Training</title>
+        <ts_index_group/>
+        <url_suffix>pt</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="DELETE" query="documentkey=b326c09b47923110b3b40178c26d43ae"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Projects">a33abc7247863110b3b40178c26d43a9</application>
+        <file_path/>
+        <instance_id>6594a03cdb2711508aea21c4059619fc</instance_id>
+        <instance_name>dev145961</instance_name>
+        <name>sp_portal_b326c09b47923110b3b40178c26d43ae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal"><sp_portal action="INSERT_OR_UPDATE"><css_variables/><dark_theme/><default>false</default><enable_ais>false</enable_ais><enable_favorites>false</enable_favorites><hide_portal_name>false</hide_portal_name><homepage display_value="home_page">e135c45b47923110b3b40178c26d4362</homepage><icon/><kb_knowledge_base/><kb_knowledge_page/><login_page/><logo/><notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page><quick_start_config/><sc_catalog/><sc_catalog_page/><sc_category_page/><search_application/><search_results_configuration/><sp_chat_queue/><sp_rectangle_menu display_value="Portal Training Menu">674e189347163110b3b40178c26d4347</sp_rectangle_menu><sys_class_name>sp_portal</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-09 07:28:53</sys_created_on><sys_id>b326c09b47923110b3b40178c26d43ae</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Portal Training</sys_name><sys_package display_value="Projects" source="x_1139630_projects">a33abc7247863110b3b40178c26d43a9</sys_package><sys_policy/><sys_scope display_value="Projects">a33abc7247863110b3b40178c26d43a9</sys_scope><sys_update_name>sp_portal_b326c09b47923110b3b40178c26d43ae</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-09 09:12:35</sys_updated_on><theme display_value="La Jolla">a7a6e78277002300a6e592718a10617a</theme><title>Portal Training</title><ts_index_group/><url_suffix>pt</url_suffix></sp_portal><sys_translated_text action="delete_multiple" query="documentkey=b326c09b47923110b3b40178c26d43ae"/></record_update>]]></payload>
+        <payload_hash>954570192</payload_hash>
+        <record_name>Portal Training</record_name>
+        <reverted_from/>
+        <source>a33abc7247863110b3b40178c26d43ab</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-09 09:12:36</sys_created_on>
+        <sys_id>72ce54d347163110b3b40178c26d43a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bb35ad4a00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-09 09:12:36</sys_updated_on>
+        <type>Service Portal</type>
+        <update_guid>7ace54d32d1631100d9d2d8f6d2bd3a3</update_guid>
+        <update_guid_history>7ace54d32d1631100d9d2d8f6d2bd3a3:954570192,5bdd9493d71631103291c76c6c1d97a5:-1952154647,5bdd9493d71631103291c76c6c1d97a5:-1952154647,7af7c09baf9231101ca648710235be95:-366432420,2a77481b809231103f0045e771e1ed5f:687756384,b307c0db919231108b7325092450679e:-366432420</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Portal Training">da6da45347563110b3b40178c26d43d1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-09 10:16:27</sys_created_on>
+        <sys_db_object display_value="" name="sp_portal">sp_portal</sys_db_object>
+        <sys_id>56615149db0b44f0a62a41236cec9664</sys_id>
+        <sys_metadata>b326c09b47923110b3b40178c26d43ae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Portal Training</sys_name>
+        <sys_package display_value="Projects" source="x_1139630_projects">a33abc7247863110b3b40178c26d43a9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Projects">a33abc7247863110b3b40178c26d43a9</sys_scope>
+        <sys_scope_delete display_value="">868117c9fc114f00a734148e77060e40</sys_scope_delete>
+        <sys_update_name>sp_portal_b326c09b47923110b3b40178c26d43ae</sys_update_name>
+        <sys_update_version display_value="sp_portal_b326c09b47923110b3b40178c26d43ae">72ce54d347163110b3b40178c26d43a4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-09 10:16:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

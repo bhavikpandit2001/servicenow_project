@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri>/api/x_1139630_projects/assigned_projects/projects/create-project</default_operation_uri>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>Create Project</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    var requestBody = request.body.data;
+    if (requestBody) {
+        // Parse the JSON data from the request body
+        //var requestData = JSON.parse(requestBody);
+
+        // Here you can process the requestData as needed (e.g., insert into a table)
+        // For example, if you have a table named "incident," you can insert a new record:
+        var gr = new GlideRecord('x_1139630_projects_project');
+        gr.initialize();
+		gr.number = requestBody.number;
+        gr.name = requestBody.name;
+        gr.description = requestBody.description;
+		gr.assigned_to = requestBody.assigned_to;
+		gr.expires_in = requestBody.expires_in;
+        var newProjectId = gr.insert();
+
+        // Send a response back to the client
+        response.setStatus(201); // 201 Created
+        response.setBody({ "message": "project created", "sys_id": newProjectId });
+    } else {
+        response.setStatus(400); // 400 Bad Request
+        response.setBody({ "error": "Invalid request data" });
+    }
+
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_1139630_projects/v1/assigned_projects/projects/create-project</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/projects/create-project</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 12:16:30</sys_created_on>
+        <sys_id>cc218dbe47863110b3b40178c26d435e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Create Project</sys_name>
+        <sys_package display_value="Projects" source="x_1139630_projects">a33abc7247863110b3b40178c26d43a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Projects">a33abc7247863110b3b40178c26d43a9</sys_scope>
+        <sys_update_name>sys_ws_operation_cc218dbe47863110b3b40178c26d435e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-27 10:24:31</sys_updated_on>
+        <web_service_definition display_value="Assigned Projects">dbf0c9be47863110b3b40178c26d43d7</web_service_definition>
+        <web_service_version display_value="v1">b9927d47474a3110b3b40178c26d43bb</web_service_version>
+    </sys_ws_operation>
+</record_update>

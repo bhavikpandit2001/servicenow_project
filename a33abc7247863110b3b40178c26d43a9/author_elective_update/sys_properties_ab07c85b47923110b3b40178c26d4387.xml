@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description>If true, portal css would be in rem units</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.service_portal.resize_text.pt.enable_rem_conversion</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-09 07:28:53</sys_created_on>
+        <sys_id>ab07c85b47923110b3b40178c26d4387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.service_portal.resize_text.pt.enable_rem_conversion</sys_name>
+        <sys_package display_value="Projects" source="x_1139630_projects">a33abc7247863110b3b40178c26d43a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Projects">a33abc7247863110b3b40178c26d43a9</sys_scope>
+        <sys_update_name>sys_properties_ab07c85b47923110b3b40178c26d4387</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-09 07:28:53</sys_updated_on>
+        <type>boolean</type>
+        <value>true</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=ab07c85b47923110b3b40178c26d4387"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Projects">a33abc7247863110b3b40178c26d43a9</application>
+        <file_path/>
+        <instance_id>6594a03cdb2711508aea21c4059619fc</instance_id>
+        <instance_name>dev145961</instance_name>
+        <name>sys_properties_ab07c85b47923110b3b40178c26d4387</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>If true, portal css would be in rem units</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>glide.service_portal.resize_text.pt.enable_rem_conversion</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-09 07:28:53</sys_created_on><sys_id>ab07c85b47923110b3b40178c26d4387</sys_id><sys_mod_count>0</sys_mod_count><sys_name>glide.service_portal.resize_text.pt.enable_rem_conversion</sys_name><sys_package display_value="Projects" source="x_1139630_projects">a33abc7247863110b3b40178c26d43a9</sys_package><sys_policy/><sys_scope display_value="Projects">a33abc7247863110b3b40178c26d43a9</sys_scope><sys_update_name>sys_properties_ab07c85b47923110b3b40178c26d4387</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-09 07:28:53</sys_updated_on><type>boolean</type><value>true</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=ab07c85b47923110b3b40178c26d4387"/></record_update>]]></payload>
+        <payload_hash>-524187077</payload_hash>
+        <record_name>glide.service_portal.resize_text.pt.enable_rem_conversion</record_name>
+        <reverted_from/>
+        <source>a33abc7247863110b3b40178c26d43ab</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-09 07:28:53</sys_created_on>
+        <sys_id>ef07c85b47923110b3b40178c26d438a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bb2fbe0fd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-09 07:28:53</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>2707c85b35923110fc2232e511fac28a</update_guid>
+        <update_guid_history>2707c85b35923110fc2232e511fac28a:-524187077</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-09 10:16:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>78da2b3a0db446abb646c90bb6b8ef31</sys_id>
+        <sys_metadata>ab07c85b47923110b3b40178c26d4387</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.service_portal.resize_text.pt.enable_rem_conversion</sys_name>
+        <sys_package display_value="Projects" source="x_1139630_projects">a33abc7247863110b3b40178c26d43a9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Projects">a33abc7247863110b3b40178c26d43a9</sys_scope>
+        <sys_scope_delete display_value="">868117c9fc114f00a734148e77060e40</sys_scope_delete>
+        <sys_update_name>sys_properties_ab07c85b47923110b3b40178c26d4387</sys_update_name>
+        <sys_update_version display_value="sys_properties_ab07c85b47923110b3b40178c26d4387">ef07c85b47923110b3b40178c26d438a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-09 10:16:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

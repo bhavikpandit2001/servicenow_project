@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2023-11-20 05:09:09">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>beth.anglin</sys_created_by>
+        <sys_created_on>2023-11-06 05:17:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f23c4c5e47123110b3b40178c26d43f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA my project dashboard - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Projects" source="x_1139630_projects">a33abc7247863110b3b40178c26d43a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Projects">a33abc7247863110b3b40178c26d43a9</sys_scope>
+        <sys_update_name>sys_portal_page_f23c4c5e47123110b3b40178c26d43f8</sys_update_name>
+        <sys_updated_by>beth.anglin</sys_updated_by>
+        <sys_updated_on>2023-11-06 05:17:34</sys_updated_on>
+        <title>PA my project dashboard - New Tab</title>
+        <user/>
+        <view>pa_my_project_dashboard_-_new_tab</view>
+    </sys_portal_page>
+</record_update>

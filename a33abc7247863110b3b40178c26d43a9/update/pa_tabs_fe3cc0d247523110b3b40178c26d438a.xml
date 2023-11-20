@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA my project dashboard - New Tab">f63c4c5e47123110b3b40178c26d43f9</canvas_page>
+        <name>my project dashboard - New Tab</name>
+        <page display_value="PA my project dashboard - New Tab">f23c4c5e47123110b3b40178c26d43f8</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>beth.anglin</sys_created_by>
+        <sys_created_on>2023-11-06 05:17:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fe3cc0d247523110b3b40178c26d438a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>my project dashboard - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Projects" source="x_1139630_projects">a33abc7247863110b3b40178c26d43a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Projects">a33abc7247863110b3b40178c26d43a9</sys_scope>
+        <sys_update_name>pa_tabs_fe3cc0d247523110b3b40178c26d438a</sys_update_name>
+        <sys_updated_by>beth.anglin</sys_updated_by>
+        <sys_updated_on>2023-11-06 05:17:34</sys_updated_on>
+    </pa_tabs>
+</record_update>

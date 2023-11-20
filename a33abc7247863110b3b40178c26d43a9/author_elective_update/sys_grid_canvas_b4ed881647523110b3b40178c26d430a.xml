@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="DELETE">
+        <legacy_page display_value="PA my project dashboard - New Tab 2">3ced881647523110b3b40178c26d4309</legacy_page>
+        <name>PA my project dashboard - New Tab 2</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>beth.anglin</sys_created_by>
+        <sys_created_on>2023-11-06 05:24:49</sys_created_on>
+        <sys_id>b4ed881647523110b3b40178c26d430a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA my project dashboard - New Tab 2</sys_name>
+        <sys_package display_value="Projects" source="x_1139630_projects">a33abc7247863110b3b40178c26d43a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Projects">a33abc7247863110b3b40178c26d43a9</sys_scope>
+        <sys_update_name>sys_grid_canvas_b4ed881647523110b3b40178c26d430a</sys_update_name>
+        <sys_updated_by>beth.anglin</sys_updated_by>
+        <sys_updated_on>2023-11-06 05:24:49</sys_updated_on>
+    </sys_grid_canvas>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Projects">a33abc7247863110b3b40178c26d43a9</application>
+        <file_path/>
+        <instance_id>6594a03cdb2711508aea21c4059619fc</instance_id>
+        <instance_name>dev145961</instance_name>
+        <name>sys_grid_canvas_b4ed881647523110b3b40178c26d430a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas"><sys_grid_canvas action="INSERT_OR_UPDATE"><legacy_page display_value="PA my project dashboard - New Tab 2">3ced881647523110b3b40178c26d4309</legacy_page><name>PA my project dashboard - New Tab 2</name><sys_class_name>sys_grid_canvas</sys_class_name><sys_created_by>beth.anglin</sys_created_by><sys_created_on>2023-11-06 05:24:49</sys_created_on><sys_id>b4ed881647523110b3b40178c26d430a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PA my project dashboard - New Tab 2</sys_name><sys_package display_value="Projects" source="x_1139630_projects">a33abc7247863110b3b40178c26d43a9</sys_package><sys_policy/><sys_scope display_value="Projects">a33abc7247863110b3b40178c26d43a9</sys_scope><sys_update_name>sys_grid_canvas_b4ed881647523110b3b40178c26d430a</sys_update_name><sys_updated_by>beth.anglin</sys_updated_by><sys_updated_on>2023-11-06 05:24:49</sys_updated_on></sys_grid_canvas></record_update>]]></payload>
+        <payload_hash>1792726602</payload_hash>
+        <record_name>PA my project dashboard - New Tab 2</record_name>
+        <reverted_from/>
+        <source>a33abc7247863110b3b40178c26d43ab</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>beth.anglin</sys_created_by>
+        <sys_created_on>2023-11-06 05:24:49</sys_created_on>
+        <sys_id>f0ed881647523110b3b40178c26d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ba31735ed0000001</sys_recorded_at>
+        <sys_updated_by>beth.anglin</sys_updated_by>
+        <sys_updated_on>2023-11-06 05:24:49</sys_updated_on>
+        <type>Grid Canvas</type>
+        <update_guid>38ed8816c5523110818a61ea7422a60b</update_guid>
+        <update_guid_history>38ed8816c5523110818a61ea7422a60b:1792726602</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>beth.anglin</sys_created_by>
+        <sys_created_on>2023-11-06 05:24:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas">sys_grid_canvas</sys_db_object>
+        <sys_id>3fd95fddee21403aa39ed7636a9cbba4</sys_id>
+        <sys_metadata>b4ed881647523110b3b40178c26d430a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA my project dashboard - New Tab 2</sys_name>
+        <sys_package display_value="Projects" source="x_1139630_projects">a33abc7247863110b3b40178c26d43a9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Projects">a33abc7247863110b3b40178c26d43a9</sys_scope>
+        <sys_scope_delete display_value="">868117c9fc114f00a734148e77060e40</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_b4ed881647523110b3b40178c26d430a</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_b4ed881647523110b3b40178c26d430a">f0ed881647523110b3b40178c26d430c</sys_update_version>
+        <sys_updated_by>beth.anglin</sys_updated_by>
+        <sys_updated_on>2023-11-06 05:24:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

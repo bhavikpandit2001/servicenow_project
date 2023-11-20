@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri>/api/x_1139630_projects/assigned_projects/users/update-user</default_operation_uri>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>PATCH</http_method>
+        <name>Update User</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource here
+
+ var requestBody = request.body.data;
+    if (requestBody) {
+        //var requestData = JSON.parse(requestBody);
+
+        // Check if a user exists with the specified sys_id or username
+        var user = "x_1139630_projects_user"; // Replace with your actual table name
+        var record = new GlideRecord(user);
+		if (requestBody.sys_id) {
+            record.addQuery('sys_id', requestBody.sys_id);
+        }
+         record.query();
+
+        if (record.next()) {
+            // Update record attributes
+            record.setValue('name', requestBody.name);
+			record.setValue('username', requestBody.username);
+			record.setValue('password', requestBody.password);
+            // Add more fields as needed
+
+            // Commit the changes
+            record.update();
+            response.setStatus(204); // 204 No Content (Successful update)
+			response.setBody({"message": "user updated successfully..." });
+        } else {
+            response.setStatus(404); // 404 Not Found (Record not found)
+            response.setBody({ "error": "Record not found" });
+        }
+    } else {
+        response.setStatus(400); // 400 Bad Request
+        response.setBody({ "error": "Invalid request data" });
+    }
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_1139630_projects/v1/assigned_projects/users/update-user</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/users/update-user</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-27 05:15:59</sys_created_on>
+        <sys_id>a95b684347463110b3b40178c26d432f</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Update User</sys_name>
+        <sys_package display_value="Projects" source="x_1139630_projects">a33abc7247863110b3b40178c26d43a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Projects">a33abc7247863110b3b40178c26d43a9</sys_scope>
+        <sys_update_name>sys_ws_operation_a95b684347463110b3b40178c26d432f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-27 10:24:31</sys_updated_on>
+        <web_service_definition display_value="Assigned Projects">dbf0c9be47863110b3b40178c26d43d7</web_service_definition>
+        <web_service_version display_value="v1">b9927d47474a3110b3b40178c26d43bb</web_service_version>
+    </sys_ws_operation>
+</record_update>

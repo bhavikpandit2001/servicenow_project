@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="db5bb83a47863110b3b40178c26d4325" label="project" max_length="40" name="x_1139630_projects_project" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="assigned_to" mandatory="true" max_length="40" name="assigned_to" reference="x_1139630_projects_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="description" type="string"/>
+        <element label="Expires_in" max_length="40" name="expires_in" type="glide_duration"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="125" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri>/api/x_1139630_projects/assigned_projects/users/delete-user/{sys_id}</default_operation_uri>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>DELETE</http_method>
+        <name>Delete User</name>
+        <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    var recordSysId = request.pathParams.sys_id;
+
+    var user = "x_1139630_projects_user"; // Replace with your actual table name
+    var record = new GlideRecord(user);
+    if (record.get(recordSysId)) {
+        // Delete the record
+        record.deleteRecord();
+        response.setStatus(204); // 204 No Content (Successful deletion)
+    } else {
+        response.setStatus(404); // 404 Not Found (Record not found)
+        response.setBody({
+            "error": "Record not found"
+        });
+    }
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_1139630_projects/v1/assigned_projects/users/delete-user/{sys_id}</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/users/delete-user/{sys_id}</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-27 06:42:54</sys_created_on>
+        <sys_id>2e8fbcc747863110b3b40178c26d43bf</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Delete User</sys_name>
+        <sys_package display_value="Projects" source="x_1139630_projects">a33abc7247863110b3b40178c26d43a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Projects">a33abc7247863110b3b40178c26d43a9</sys_scope>
+        <sys_update_name>sys_ws_operation_2e8fbcc747863110b3b40178c26d43bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-27 10:24:31</sys_updated_on>
+        <web_service_definition display_value="Assigned Projects">dbf0c9be47863110b3b40178c26d43d7</web_service_definition>
+        <web_service_version display_value="v1">b9927d47474a3110b3b40178c26d43bb</web_service_version>
+    </sys_ws_operation>
+</record_update>

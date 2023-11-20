@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="DELETE">
+        <dashboard display_value="my project dashboard">1f0c00d247523110b3b40178c26d439a</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>2</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>beth.anglin</sys_created_by>
+        <sys_created_on>2023-11-06 05:24:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f8ed881647523110b3b40178c26d430f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1f0c00d247523110b3b40178c26d439a</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Projects" source="x_1139630_projects">a33abc7247863110b3b40178c26d43a9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Projects">a33abc7247863110b3b40178c26d43a9</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_f8ed881647523110b3b40178c26d430f</sys_update_name>
+        <sys_updated_by>beth.anglin</sys_updated_by>
+        <sys_updated_on>2023-11-06 05:24:49</sys_updated_on>
+        <tab display_value="my project dashboard - New Tab 2">30ed881647523110b3b40178c26d430d</tab>
+    </pa_m2m_dashboard_tabs>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Projects">a33abc7247863110b3b40178c26d43a9</application>
+        <file_path/>
+        <instance_id>6594a03cdb2711508aea21c4059619fc</instance_id>
+        <instance_name>dev145961</instance_name>
+        <name>pa_m2m_dashboard_tabs_f8ed881647523110b3b40178c26d430f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs"><pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE"><dashboard display_value="my project dashboard">1f0c00d247523110b3b40178c26d439a</dashboard><home>false</home><homepage/><order>2</order><sys_class_name>pa_m2m_dashboard_tabs</sys_class_name><sys_created_by>beth.anglin</sys_created_by><sys_created_on>2023-11-06 05:24:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f8ed881647523110b3b40178c26d430f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1f0c00d247523110b3b40178c26d439a</sys_name><sys_overrides/><sys_package display_value="Projects" source="x_1139630_projects">a33abc7247863110b3b40178c26d43a9</sys_package><sys_policy/><sys_scope display_value="Projects">a33abc7247863110b3b40178c26d43a9</sys_scope><sys_update_name>pa_m2m_dashboard_tabs_f8ed881647523110b3b40178c26d430f</sys_update_name><sys_updated_by>beth.anglin</sys_updated_by><sys_updated_on>2023-11-06 05:24:49</sys_updated_on><tab display_value="my project dashboard - New Tab 2">30ed881647523110b3b40178c26d430d</tab></pa_m2m_dashboard_tabs></record_update>]]></payload>
+        <payload_hash>-932060759</payload_hash>
+        <record_name>1f0c00d247523110b3b40178c26d439a</record_name>
+        <reverted_from/>
+        <source>a33abc7247863110b3b40178c26d43ab</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>beth.anglin</sys_created_by>
+        <sys_created_on>2023-11-06 05:24:49</sys_created_on>
+        <sys_id>78ed881647523110b3b40178c26d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ba31736380000001</sys_recorded_at>
+        <sys_updated_by>beth.anglin</sys_updated_by>
+        <sys_updated_on>2023-11-06 05:24:49</sys_updated_on>
+        <type>Dashboard Tab</type>
+        <update_guid>bced881663523110505a428ef18efe10</update_guid>
+        <update_guid_history>bced881663523110505a428ef18efe10:-932060759</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="my project dashboard">71ed0c1647523110b3b40178c26d4324</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>beth.anglin</sys_created_by>
+        <sys_created_on>2023-11-06 05:24:53</sys_created_on>
+        <sys_db_object display_value="" name="pa_m2m_dashboard_tabs">pa_m2m_dashboard_tabs</sys_db_object>
+        <sys_id>085f6b5caea542c4aea1c012f1485024</sys_id>
+        <sys_metadata>f8ed881647523110b3b40178c26d430f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1f0c00d247523110b3b40178c26d439a</sys_name>
+        <sys_package display_value="Projects" source="x_1139630_projects">a33abc7247863110b3b40178c26d43a9</sys_package>
+        <sys_parent display_value="my project dashboard">1f0c00d247523110b3b40178c26d439a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Projects">a33abc7247863110b3b40178c26d43a9</sys_scope>
+        <sys_scope_delete display_value="">868117c9fc114f00a734148e77060e40</sys_scope_delete>
+        <sys_update_name>pa_m2m_dashboard_tabs_f8ed881647523110b3b40178c26d430f</sys_update_name>
+        <sys_update_version display_value="pa_m2m_dashboard_tabs_f8ed881647523110b3b40178c26d430f">78ed881647523110b3b40178c26d4311</sys_update_version>
+        <sys_updated_by>beth.anglin</sys_updated_by>
+        <sys_updated_on>2023-11-06 05:24:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
